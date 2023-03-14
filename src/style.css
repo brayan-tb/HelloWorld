@@ -21,6 +21,7 @@
 }
 
 .row ul li{
+    display: none;
     list-style-type: circle;
     font-weight: 600;
 }
@@ -35,12 +36,17 @@
 
 #click{
     border: none;
-    position: absolute;
-    bottom:10px ;
-    right: 10px;
+    /* position: absolute; */
+    /* bottom:10px ; */
+    /* right: 10px; */
     background-color: rgb(188, 218, 245);
     font-size: 17.5px;
+    margin: 0 15px;
     color: white;
-    padding: 10px;
+    padding: 10px 20px;
     border-radius: 50px;
+}
+
+.hello{
+    color: red;
 }
